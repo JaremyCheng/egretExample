@@ -1,0 +1,31 @@
+{
+  "engineVersion": "5.2.29",
+  "compilerVersion": "5.2.29",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "dragonBones"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "promise"
+    }
+  ]
+}
