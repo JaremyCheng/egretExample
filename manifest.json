@@ -13,12 +13,13 @@
     "bin-debug/LoadingUI.js",
     "bin-debug/Main.js",
     "bin-debug/Platform.js",
-    "bin-debug/Scene/Scene.js",
     "bin-debug/components/An.js",
-    "bin-debug/Scene/GameStartView.js",
-    "bin-debug/utils/ResUtils.js",
-    "bin-debug/utils/Const.js",
     "bin-debug/components/Button.js",
-    "bin-debug/Scene/GamePlayView.js"
+    "bin-debug/Scene/GamePlayView.js",
+    "bin-debug/Scene/GameStartView.js",
+    "bin-debug/Scene/Scene.js",
+    "bin-debug/utils/Const.js",
+    "bin-debug/utils/ResUtils.js",
+    "bin-debug/components/ButtonWithTexture.js"
   ]
 }

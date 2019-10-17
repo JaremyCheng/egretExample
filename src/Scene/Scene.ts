@@ -17,5 +17,12 @@ class Scene extends egret.DisplayObjectContainer{
         var gameStart:GameStartView = new GameStartView();
         this.thisContainer.addChild(gameStart);
     }
-    private removeAll():void {}
+    public play():void {
+        this.removeAll();
+        var gamePlay:GamePlayView = new GamePlayView();
+        this.thisContainer.addChild(gamePlay);
+    }
+    private removeAll():void {
+        this.thisContainer.removeChildren();
+    }
 }

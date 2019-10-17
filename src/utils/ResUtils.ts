@@ -7,4 +7,11 @@ class ResUtils {
         result.texture = texture;
         return result;
     }
+    public static loadImage(url:string, callback:Function, self):void {
+        var loader:egret.ImageLoader = new egret.ImageLoader();
+        loader.addEventListener(egret.Event.COMPLETE, function loadCompelte() {
+            callback.call(self)
+        }, self);
+        loader.load(url);
+    }
 }
